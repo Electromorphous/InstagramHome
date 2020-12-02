@@ -1,0 +1,136 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: #f0f0f0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top .left img {
+  width: 30px;
+  margin: 10px;
+}
+
+.top .center {
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+}
+
+.top .center img {
+  position: absolute;
+  width: 150px;
+  top: -50px;
+  left: 25%;
+}
+
+.top .right img {
+  margin: 10px;
+  width: 25px;
+}
+
+.main {
+  margin: 50px 0;
+}
+
+.main .post {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.main .post .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+}
+
+.main .post .header img {
+  width: 20px;
+  margin: 11px;
+}
+
+.main .post .image img {
+  width: 100%;
+}
+
+.main .post .post-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.main .post .post-bottom img {
+  width: 25px;
+  margin: 5px;
+}
+
+.main .post .post-bottom .left {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.main .post .post-bottom .right img {
+  margin-right: 15px;
+}
+
+.main .post .likes {
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.main .post .caption {
+  margin: 5px 15px;
+}
+
+.main .post .caption span {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.main .post .time {
+  margin-left: 20px;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  background: white;
+  padding: 5px 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.bottom img {
+  width: 30px;
+}
